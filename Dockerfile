@@ -3,9 +3,9 @@
 # Environment: Java
 # Minimum Panel Version: 0.6.0
 # ----------------------------------
-FROM lustefaniak/graalvm:11
+FROM lustefaniak/graalvm:17
 
-MAINTAINER RikoDEV, <kontakt@riko.dev>
+MAINTAINER DartCZ
 
 RUN apt-get update -y \
  && apt-get install -y curl ca-certificates openssl git tar sqlite fontconfig tzdata iproute2 \
